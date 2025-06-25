@@ -9,7 +9,7 @@ from telegram.ext import (ApplicationBuilder, CommandHandler, MessageHandler,
                           filters, ContextTypes, CallbackQueryHandler)
 
 # === CONFIGURATION ===
-BOT_TOKEN = os.getenv("AAGD0nQei0viGUpbYEJzYpqmzyvBAUzdAM4")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8068299465:AAGD0nQei0viGUpbYEJzYpqmzyvBAUzdAM4")
 ACCESS_CODE = os.getenv("ACCESS_CODE", "2026")
 ALLOWED_USERS = set()
 
